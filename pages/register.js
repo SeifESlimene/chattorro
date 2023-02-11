@@ -155,10 +155,10 @@ const Register = () => {
                   </div>
                 </div>
               </div>
-              <div className='px-4 py-3 sm:px-6 grid grid-cols-2 gap-x-6 justify-items-start'>
+              <div className='px-4 py-3 sm:px-6'>
                 <button
                   type='button'
-                  className='inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                  className='inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 mr-4'
                   onClick={() =>
                     router.push({
                       pathname: '/',
