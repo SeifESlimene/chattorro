@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
     // Optional logging to see the responses
     // in the command line where next.js app is running.
-    console.log("body: ", body);
+    // console.log("body: ", body);
 
     // Guard clause checks for first and last name,
     // and returns early if they are not found
@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       query: "INSERT INTO users(firstname, lastname) VALUES(?, ?)",
       values: [body.firstName, body.lastName],
     });
-    console.log("Result: ", result);
+    // console.log("Result: ", result);
   } catch (error) {
     console.log(error);
   }
